@@ -1,0 +1,58 @@
+[
+  {
+    "id": 101,
+    "course": "precalculus",
+    "title": "What is a function?",
+    "summary": "Inputs, outputs, and the vertical line test.",
+    "type": "Video + Reading",
+    "video": "Q1C9z1g3H_s",
+    "markdown": "\nA **function** maps each input to exactly one output. You can visualize it as a machine:\n\n- Put in \\(x\\), get out \\(f(x)\\).\n- If any \\(x\\) gives two different outputs, it's *not* a function.\n\n**Vertical line test:** If every vertical line intersects the graph at *most once*, it's a function.\n\n### Example\nConsider \\(f(x)=x^2\\). Each input has one output (its square), so it's a function.\n\n### Your turn\nTry the exercises below. Use hints if you get stuck, then read the explanation.\n",
+    "exercises": [
+      {
+        "kind": "mcq",
+        "prompt": "Which relation *is* a function?",
+        "choices": [
+          "Circle x^2 + y^2 = 1",
+          "Parabola y = x^2",
+          "Sideways parabola x = y^2",
+          "A vertical line x = 3"
+        ],
+        "answerIndex": 1,
+        "hint": "Apply the vertical line test.",
+        "explanation": "Only y=x^2 passes the vertical line test because each x has exactly one y."
+      },
+      {
+        "kind": "numeric",
+        "prompt": "For f(x)=x^2, what is f(3)?",
+        "answer": 9,
+        "tolerance": 0,
+        "hint": "Square the input.",
+        "explanation": "f(3)=3^2=9."
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "course": "intro-cs",
+    "title": "What is an algorithm?",
+    "summary": "Precise steps to solve a problem.",
+    "type": "Video + Reading",
+    "video": "sG2G6xVqN2k",
+    "markdown": "\nAn **algorithm** is a finite, precise sequence of steps to solve a class of problems.\n\n- Inputs: what the algorithm receives\n- Output: the result\n- Correctness: does it solve all valid inputs?\n- Efficiency: time and space resources\n\n### Example\nLinear search: check each element until you find the key.\n",
+    "exercises": [
+      {
+        "kind": "mcq",
+        "prompt": "Which best describes an algorithm?",
+        "choices": [
+          "Any computer program",
+          "A finite, precise recipe to solve a general problem",
+          "A hardware component",
+          "Random steps that often work"
+        ],
+        "answerIndex": 1,
+        "hint": "Think 'finite' and 'precise'.",
+        "explanation": "Algorithms are precise and finite, not random."
+      }
+    ]
+  }
+]

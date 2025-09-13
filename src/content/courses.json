@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "precalculus",
+    "title": "Precalculus Essentials",
+    "subtitle": "Functions, graphs, and trigonometry for calculus readiness.",
+    "level": "Beginner",
+    "topic": "Math"
+  },
+  {
+    "slug": "intro-cs",
+    "title": "Intro to Computer Science",
+    "subtitle": "Think like a computer scientist: algorithms & data.",
+    "level": "Beginner",
+    "topic": "CS"
+  }
+]
