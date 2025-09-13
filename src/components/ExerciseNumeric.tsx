@@ -11,7 +11,9 @@ type Numeric = {
   explanation?: string
 }
 
-export default function ExerciseNumeric({ lessonId, index, data }: { lessonId: number, index: number, data: Numeric }){
+export default function ExerciseNumeric({ 
+  lessonId, index, data 
+}: { lessonId: number, index: number, data: any }){
   const [value, setValue] = useState('')
   const [submitted, setSubmitted] = useState(false)
   const num = Number(value)

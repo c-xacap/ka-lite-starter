@@ -2,20 +2,12 @@
 import React, { useState } from 'react'
 import { saveExerciseResult } from '@lib/progress'
 
-type MCQ = {
-  kind: 'mcq',
-  prompt: string,
-  choices: string[],
-  answerIndex: number,
-  hint?: string,
-  explanation?: string
-}
-
-export default function ExerciseMCQ({ lessonId, index, data }: { lessonId: number, index: number, data: MCQ }){
+export default function ExerciseMCQ({ 
+  lessonId, index, data 
+}: { lessonId: number, index: number, data: any }) {
   const [selected, setSelected] = useState<number | null>(null)
   const [submitted, setSubmitted] = useState(false)
   const correct = selected === data.answerIndex
-
   function onSubmit(){
     if(selected === null) return
     saveExerciseResult(lessonId, index, correct)
